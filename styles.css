@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: black;
+}
+
+.picture {
+    width: 15%;
+    height: 20%;
+    position: fixed;
+}
+
+#dogcartImg {
+    left: 5%;
+}
+#truthImg {
+    left: 22%;
+}
+#ironyImg {
+    left: 39%;
+}
+#jackImg {
+    left: 56%;
+}
+#algernonImg {
+    left: 73%;
+}
+
+.quotes {
+    color: white;
+    max-width: 200px;
+    position: absolute;
+}
+
+#dogcart {
+    left: 40%;
+    top: 40%;
+}
+
+#truth {
+    left: 70%;
+    top: 80%;
+}
+
+#algernon {
+    left: 10%;
+    top: 55%;
+}
+
+#irony {
+    left: 80%;
+    top: 36%;
+}
+
+#jack {
+    left: 34%;
+    top: 80%;
+}
