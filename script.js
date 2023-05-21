@@ -8,7 +8,7 @@ let explanation = undefined
 
 for (let i = 0; i < images.length; i++) {
     images[i].addEventListener("mousedown", (event) => {
-        movingImage = event.target
+        if (explanation == undefined) movingImage = event.target
     })
     images[i].addEventListener("mouseup", (event) => {
         movingImage = undefined
@@ -46,7 +46,6 @@ for (let i = 0; i < quotes.length; i++) {
             currTextSelected.remove()
             movingImage.remove()
         }
-        else console.log("e2") 
     })
     quotes[i].addEventListener("mouseleave", (event) => {
         currTextSelected = undefined
